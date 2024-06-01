@@ -2,9 +2,8 @@ import * as React from 'react';
 import { useState, useEffect } from 'react';
 import { createRoot } from 'react-dom/client';
 import Map, { Marker, FullscreenControl, GeolocateControl, NavigationControl, Popup } from 'react-map-gl';
-import { Sidebar, CustomFlowbiteTheme } from 'flowbite-react';
-import { HiArrowSmRight, HiChartPie, HiInbox, HiShoppingBag, HiTable, HiUser } from 'react-icons/hi';
-
+import { Menu, MenuItem, MenuList, MenuButton, Accordion, AccordionItem, AccordionButton, AccordionPanel, AccordionIcon, Button } from "@chakra-ui/react";
+import { ScaleFade } from "@chakra-ui/transition";
 import 'mapbox-gl/dist/mapbox-gl.css';
 
 const MAPBOX_TOKEN = 'pk.eyJ1Ijoic2FudGFrYXVzIiwiYSI6ImNsd255azRteDE2b2cyam83YmlocmZxYzUifQ.YYF8_g3GceatHAQxL6uJrQ'; // Set your mapbox token here
@@ -16,7 +15,7 @@ function App() {
     zoom: 14
   });
 
-  const [isSidebarCollapsed, setIsSidebarCollapsed] = useState(true);
+  const [isSidebarOpen, setIsSidebarOpen] = useState(false);
 
   useEffect(() => {
     navigator.geolocation.getCurrentPosition(
@@ -34,79 +33,25 @@ function App() {
   }, []);
 
   const toggleSidebar = () => {
-    setIsSidebarCollapsed(!isSidebarCollapsed);
+    setIsSidebarOpen(!isSidebarOpen);
   };
 
   const closeSidebar = () => {
-    if (!isSidebarCollapsed) {
-      setIsSidebarCollapsed(true);
-    }
+    setIsSidebarOpen(false);
   };
 
   return (
-    <div style={{ position: 'relative', height: '100vh' }}>
-      <Sidebar
-        aria-label="Sidebar with multi-level dropdown example"
-        style={{
-          position: 'absolute',
-          top: '5vh',
-          left: isSidebarCollapsed ? '-30vw' : '0',
-          height: '90vh',
-          width: '30vw',
-          whiteSpaceCollapse: 'none',
-          overflow: 'hidden',
-          transition: 'left 0.4s',
-          margin: '0', // Remove margins for better positioning
-          background: 'white', // Ensure background is white for better visibility
-          boxShadow: '2px 2px 10px rgba(0, 0, 0, 0.3)', // Add shadow for a floating effect
-          borderRadius: '10px', // Rounded corners for aesthetics
-          zIndex: 1 // Ensure the sidebar is on top
-        }}
-      >
-        <Sidebar.Items>
-          <Sidebar.ItemGroup>
-            <Sidebar.Item style={{ fontSize: '20px', fontWeight: 'bold' }}>
-              Voyager Craft Coffee
-            </Sidebar.Item>
-          </Sidebar.ItemGroup>
-          <Sidebar.ItemGroup>
-            <Sidebar.Item>
-              Overall Grind Score: 4.7
-            </Sidebar.Item>
-            <Sidebar.Collapse label='Score Breakdown'>
-              <Sidebar.Item href="#">Coffee: 4.2</Sidebar.Item>
-              <Sidebar.Item href="#">Environment: 4.5</Sidebar.Item>
-              <Sidebar.Item href="#">People: 4.2</Sidebar.Item>
-            </Sidebar.Collapse>
-          </Sidebar.ItemGroup>
-          <Sidebar.ItemGroup>
-            <Sidebar.Item>
-              Laptop Friendly: Yes
-            </Sidebar.Item>
-            <Sidebar.Item>
-              Bathroom: Yes
-            </Sidebar.Item>
-            <Sidebar.Item>
-              Wifi: Yes
-            </Sidebar.Item>
-          </Sidebar.ItemGroup>
-          <Sidebar.ItemGroup>
-            <Sidebar.Item>
-              Hours: 6:00am - 10:00pm
-            </Sidebar.Item>
-            <Sidebar.Item>
-              Address: 20807 Stevens Creek Blvd
-            </Sidebar.Item>
-          </Sidebar.ItemGroup>
-        </Sidebar.Items>
-      </Sidebar>
+    <div className='relative h-screen w-screen'>
       <Map
         {...viewState}
         onMove={evt => setViewState(evt.viewState)}
         onClick={closeSidebar}
         style={{ width: '100vw', height: '100vh' }}
-        mapStyle="mapbox://styles/mapbox/streets-v9"
+        mapStyle="mapbox://styles/mapbox/standard"
         mapboxAccessToken={MAPBOX_TOKEN}
+        doubleClickZoom={true}
+        hash={true}
+        pitch={55}
       >
         <GeolocateControl />
         <NavigationControl />
@@ -118,8 +63,46 @@ function App() {
             event.originalEvent.stopPropagation(); // Prevent triggering the map's onClick event
             toggleSidebar();
           }}
-        />
+        >
+        </Marker>
       </Map>
+      <Menu isOpen={isSidebarOpen}>
+          <MenuButton position="absolute"
+            top="2.5rem"
+            left="1.5rem"></MenuButton>
+          <MenuList
+            overflow="scroll"
+            background="transparent"
+            border="none"
+            width="30vw"
+            maxH="90vh"
+          >
+            <div className="">
+              <ScaleFade initialScale={0.9} in={isSidebarOpen}>
+                <Accordion allowToggle width="100%" overflowY="auto" maxH="85vh">
+                  <AccordionItem
+                    marginTop={0}
+                    marginBottom={3}
+                    border="none"
+                    backgroundColor="rgba(255, 255, 255, 0.75)"
+                    borderRadius="20px"
+                    color="black"
+                  >
+                    <AccordionButton
+                      borderRadius="30px"
+                      size="md"
+                      fontWeight={400}
+                    >
+                      Is it accessible?</AccordionButton>
+                    <AccordionPanel p="0" sx={{ borderBottomRadius: "20px" }}>
+                        Hey
+                    </AccordionPanel>
+                  </AccordionItem>
+                </Accordion>
+              </ScaleFade>
+            </div>
+          </MenuList>
+        </Menu>
     </div>
   );
 }
