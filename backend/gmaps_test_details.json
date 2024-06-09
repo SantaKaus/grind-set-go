@@ -1,0 +1,588 @@
+{
+    "types": [
+        "coffee_shop",
+        "cafe",
+        "point_of_interest",
+        "store",
+        "food",
+        "establishment"
+    ],
+    "formattedAddress": "3985 Stevens Creek Blvd, Santa Clara, CA 95051, USA",
+    "addressComponents": [
+        {
+            "longText": "3985",
+            "shortText": "3985",
+            "types": [
+                "street_number"
+            ],
+            "languageCode": "en-US"
+        },
+        {
+            "longText": "Stevens Creek Boulevard",
+            "shortText": "Stevens Creek Blvd",
+            "types": [
+                "route"
+            ],
+            "languageCode": "en"
+        },
+        {
+            "longText": "Santa Clara",
+            "shortText": "Santa Clara",
+            "types": [
+                "locality",
+                "political"
+            ],
+            "languageCode": "en"
+        },
+        {
+            "longText": "Santa Clara County",
+            "shortText": "Santa Clara County",
+            "types": [
+                "administrative_area_level_2",
+                "political"
+            ],
+            "languageCode": "en"
+        },
+        {
+            "longText": "California",
+            "shortText": "CA",
+            "types": [
+                "administrative_area_level_1",
+                "political"
+            ],
+            "languageCode": "en"
+        },
+        {
+            "longText": "United States",
+            "shortText": "US",
+            "types": [
+                "country",
+                "political"
+            ],
+            "languageCode": "en"
+        },
+        {
+            "longText": "95051",
+            "shortText": "95051",
+            "types": [
+                "postal_code"
+            ],
+            "languageCode": "en-US"
+        },
+        {
+            "longText": "7157",
+            "shortText": "7157",
+            "types": [
+                "postal_code_suffix"
+            ],
+            "languageCode": "en-US"
+        }
+    ],
+    "location": {
+        "latitude": 37.32362,
+        "longitude": -121.972528
+    },
+    "rating": 4.6,
+    "googleMapsUri": "https://maps.google.com/?cid=53655200640565249",
+    "regularOpeningHours": {
+        "openNow": "False",
+        "periods": [
+            {
+                "open": {
+                    "day": 0,
+                    "hour": 7,
+                    "minute": 0
+                },
+                "close": {
+                    "day": 0,
+                    "hour": 17,
+                    "minute": 0
+                }
+            },
+            {
+                "open": {
+                    "day": 1,
+                    "hour": 7,
+                    "minute": 0
+                },
+                "close": {
+                    "day": 1,
+                    "hour": 17,
+                    "minute": 0
+                }
+            },
+            {
+                "open": {
+                    "day": 2,
+                    "hour": 7,
+                    "minute": 0
+                },
+                "close": {
+                    "day": 2,
+                    "hour": 17,
+                    "minute": 0
+                }
+            },
+            {
+                "open": {
+                    "day": 3,
+                    "hour": 7,
+                    "minute": 0
+                },
+                "close": {
+                    "day": 3,
+                    "hour": 17,
+                    "minute": 0
+                }
+            },
+            {
+                "open": {
+                    "day": 4,
+                    "hour": 7,
+                    "minute": 0
+                },
+                "close": {
+                    "day": 4,
+                    "hour": 17,
+                    "minute": 0
+                }
+            },
+            {
+                "open": {
+                    "day": 5,
+                    "hour": 7,
+                    "minute": 0
+                },
+                "close": {
+                    "day": 5,
+                    "hour": 17,
+                    "minute": 0
+                }
+            },
+            {
+                "open": {
+                    "day": 6,
+                    "hour": 7,
+                    "minute": 0
+                },
+                "close": {
+                    "day": 6,
+                    "hour": 17,
+                    "minute": 0
+                }
+            }
+        ],
+        "weekdayDescriptions": [
+            "Monday: 7:00\u202fAM\u2009–\u20095:00\u202fPM",
+            "Tuesday: 7:00\u202fAM\u2009–\u20095:00\u202fPM",
+            "Wednesday: 7:00\u202fAM\u2009–\u20095:00\u202fPM",
+            "Thursday: 7:00\u202fAM\u2009–\u20095:00\u202fPM",
+            "Friday: 7:00\u202fAM\u2009–\u20095:00\u202fPM",
+            "Saturday: 7:00\u202fAM\u2009–\u20095:00\u202fPM",
+            "Sunday: 7:00\u202fAM\u2009–\u20095:00\u202fPM"
+        ]
+    },
+    "priceLevel": "PRICE_LEVEL_INEXPENSIVE",
+    "userRatingCount": 1566,
+    "displayName": {
+        "text": "Voyager Craft Coffee",
+        "languageCode": "en"
+    },
+    "dineIn": "True",
+    "currentOpeningHours": {
+        "openNow": "False",
+        "periods": [
+            {
+                "open": {
+                    "day": 0,
+                    "hour": 7,
+                    "minute": 0,
+                    "date": {
+                        "year": 2024,
+                        "month": 6,
+                        "day": 9
+                    }
+                },
+                "close": {
+                    "day": 0,
+                    "hour": 17,
+                    "minute": 0,
+                    "date": {
+                        "year": 2024,
+                        "month": 6,
+                        "day": 9
+                    }
+                }
+            },
+            {
+                "open": {
+                    "day": 1,
+                    "hour": 7,
+                    "minute": 0,
+                    "date": {
+                        "year": 2024,
+                        "month": 6,
+                        "day": 10
+                    }
+                },
+                "close": {
+                    "day": 1,
+                    "hour": 17,
+                    "minute": 0,
+                    "date": {
+                        "year": 2024,
+                        "month": 6,
+                        "day": 10
+                    }
+                }
+            },
+            {
+                "open": {
+                    "day": 2,
+                    "hour": 7,
+                    "minute": 0,
+                    "date": {
+                        "year": 2024,
+                        "month": 6,
+                        "day": 11
+                    }
+                },
+                "close": {
+                    "day": 2,
+                    "hour": 17,
+                    "minute": 0,
+                    "date": {
+                        "year": 2024,
+                        "month": 6,
+                        "day": 11
+                    }
+                }
+            },
+            {
+                "open": {
+                    "day": 3,
+                    "hour": 7,
+                    "minute": 0,
+                    "date": {
+                        "year": 2024,
+                        "month": 6,
+                        "day": 12
+                    }
+                },
+                "close": {
+                    "day": 3,
+                    "hour": 17,
+                    "minute": 0,
+                    "date": {
+                        "year": 2024,
+                        "month": 6,
+                        "day": 12
+                    }
+                }
+            },
+            {
+                "open": {
+                    "day": 4,
+                    "hour": 7,
+                    "minute": 0,
+                    "date": {
+                        "year": 2024,
+                        "month": 6,
+                        "day": 13
+                    }
+                },
+                "close": {
+                    "day": 4,
+                    "hour": 17,
+                    "minute": 0,
+                    "date": {
+                        "year": 2024,
+                        "month": 6,
+                        "day": 13
+                    }
+                }
+            },
+            {
+                "open": {
+                    "day": 5,
+                    "hour": 7,
+                    "minute": 0,
+                    "date": {
+                        "year": 2024,
+                        "month": 6,
+                        "day": 14
+                    }
+                },
+                "close": {
+                    "day": 5,
+                    "hour": 17,
+                    "minute": 0,
+                    "date": {
+                        "year": 2024,
+                        "month": 6,
+                        "day": 14
+                    }
+                }
+            },
+            {
+                "open": {
+                    "day": 6,
+                    "hour": 7,
+                    "minute": 0,
+                    "date": {
+                        "year": 2024,
+                        "month": 6,
+                        "day": 8
+                    }
+                },
+                "close": {
+                    "day": 6,
+                    "hour": 17,
+                    "minute": 0,
+                    "date": {
+                        "year": 2024,
+                        "month": 6,
+                        "day": 8
+                    }
+                }
+            }
+        ],
+        "weekdayDescriptions": [
+            "Monday: 7:00\u202fAM\u2009–\u20095:00\u202fPM",
+            "Tuesday: 7:00\u202fAM\u2009–\u20095:00\u202fPM",
+            "Wednesday: 7:00\u202fAM\u2009–\u20095:00\u202fPM",
+            "Thursday: 7:00\u202fAM\u2009–\u20095:00\u202fPM",
+            "Friday: 7:00\u202fAM\u2009–\u20095:00\u202fPM",
+            "Saturday: 7:00\u202fAM\u2009–\u20095:00\u202fPM",
+            "Sunday: 7:00\u202fAM\u2009–\u20095:00\u202fPM"
+        ]
+    },
+    "primaryType": "coffee_shop",
+    "shortFormattedAddress": "3985 Stevens Creek Blvd, Santa Clara",
+    "editorialSummary": {
+        "text": "Hip coffee shop with globally inspired drinks from farm-sourced beans, plus latte art & baked goods.",
+        "languageCode": "en"
+    },
+    "reviews": [
+        {
+            "name": "places/ChIJaUsphJLKj4ARAYCI5h6fvgA/reviews/ChZDSUhNMG9nS0VJQ0FnSURUaTR1QlFnEAE",
+            "relativePublishTimeDescription": "a week ago",
+            "rating": 5,
+            "text": {
+                "text": "I don’t drink coffee often but this one is a must-stop every time we go to South Bay. They have quite a fun selection of flavors. From Bali, Manila, and their specialty flavors. If you’re curious to try coffee, then this is your go-to place.",
+                "languageCode": "en"
+            },
+            "originalText": {
+                "text": "I don’t drink coffee often but this one is a must-stop every time we go to South Bay. They have quite a fun selection of flavors. From Bali, Manila, and their specialty flavors. If you’re curious to try coffee, then this is your go-to place.",
+                "languageCode": "en"
+            },
+            "authorAttribution": {
+                "displayName": "Foodie Traveler",
+                "uri": "https://www.google.com/maps/contrib/102932902970517242005/reviews",
+                "photoUri": "https://lh3.googleusercontent.com/a-/ALV-UjX_EnSgIrQhgBkeuZgrKVfWLInLVZCAISjuEHNei4jRf7t78N4=s128-c0x00000000-cc-rp-mo-ba4"
+            },
+            "publishTime": "2024-05-27T23:28:56Z"
+        },
+        {
+            "name": "places/ChIJaUsphJLKj4ARAYCI5h6fvgA/reviews/ChZDSUhNMG9nS0VJQ0FnSUNUdjhhT2JnEAE",
+            "relativePublishTimeDescription": "2 weeks ago",
+            "rating": 4,
+            "text": {
+                "text": "Voyager Craft Coffee is a solid choice for coffee lovers, especially those who appreciate a good chai latte (I don't drink coffee, so I can't speak on that). They get major points for customization - you can pick your spice level, ice level, milk type (including all the usual suspects - oat, almond, soy, etc.), sweetness, and even add a shot of espresso if you're feeling adventurous. My iced chai was perfectly spiced and refreshing, just what I needed on a warm afternoon.\n\nBe aware, though, that this place gets popular! I went on a Sunday around 4 p.m., and it was pretty buzzing. Despite the crowd, the service was friendly and fast. There's indoor seating with a nice vibe and even some outdoor seating if you prefer to soak up the sun (and people watch!).  Another bonus - they're dog-friendly, which is a plus.\n\nOverall, Voyager Craft Coffee is a great spot for a customized coffee drink and a relaxed atmosphere. Just be prepared for a potential wait if you go during peak hours.",
+                "languageCode": "en"
+            },
+            "originalText": {
+                "text": "Voyager Craft Coffee is a solid choice for coffee lovers, especially those who appreciate a good chai latte (I don't drink coffee, so I can't speak on that). They get major points for customization - you can pick your spice level, ice level, milk type (including all the usual suspects - oat, almond, soy, etc.), sweetness, and even add a shot of espresso if you're feeling adventurous. My iced chai was perfectly spiced and refreshing, just what I needed on a warm afternoon.\n\nBe aware, though, that this place gets popular! I went on a Sunday around 4 p.m., and it was pretty buzzing. Despite the crowd, the service was friendly and fast. There's indoor seating with a nice vibe and even some outdoor seating if you prefer to soak up the sun (and people watch!).  Another bonus - they're dog-friendly, which is a plus.\n\nOverall, Voyager Craft Coffee is a great spot for a customized coffee drink and a relaxed atmosphere. Just be prepared for a potential wait if you go during peak hours.",
+                "languageCode": "en"
+            },
+            "authorAttribution": {
+                "displayName": "ayush kalani",
+                "uri": "https://www.google.com/maps/contrib/104431593662302929240/reviews",
+                "photoUri": "https://lh3.googleusercontent.com/a-/ALV-UjUl87MXaBoKVCghSNlXZZTzBrMJx3c329RGyqLscBxl324jlEdHKQ=s128-c0x00000000-cc-rp-mo-ba6"
+            },
+            "publishTime": "2024-05-20T23:32:48Z"
+        },
+        {
+            "name": "places/ChIJaUsphJLKj4ARAYCI5h6fvgA/reviews/ChdDSUhNMG9nS0VJQ0FnSUMxb1l1T2p3RRAB",
+            "relativePublishTimeDescription": "5 months ago",
+            "rating": 3,
+            "text": {
+                "text": "Gets real busy, and the location is not that big, so you'll have trouble finding seats. Wouldnt recommend staying too long though since the seats are a bit uncomfortable and small.\n\nOn the coffee, got a pourover and it was quite overextracted. Not exactly sure what went wrong since I wasnt watching, but it was incredibly astringent and I had a hard time tasting the more delicate flavours.\n\nStill not a bad spot to spend some free time. Ill probably give them another chance, even if just to try out their pastries and beans.",
+                "languageCode": "en"
+            },
+            "originalText": {
+                "text": "Gets real busy, and the location is not that big, so youll have trouble finding seats. Wouldnt recommend staying too long though since the seats are a bit uncomfortable and small.\n\nOn the coffee, got a pourover and it was quite overextracted. Not exactly sure what went wrong since I wasnt watching, but it was incredibly astringent and I had a hard time tasting the more delicate flavours.\n\nStill not a bad spot to spend some free time. Ill probably give them another chance, even if just to try out their pastries and beans.",
+                "languageCode": "en"
+            },
+            "authorAttribution": {
+                "displayName": "Nicholas Pun",
+                "uri": "https://www.google.com/maps/contrib/105739336757832352650/reviews",
+                "photoUri": "https://lh3.googleusercontent.com/a-/ALV-UjUD30XdDlOHKZrEk5COKqzIK3T61wD0gOpUGCBcisCjDwjx8upA=s128-c0x00000000-cc-rp-mo-ba7"
+            },
+            "publishTime": "2023-12-31T02:06:01Z"
+        },
+        {
+            "name": "places/ChIJaUsphJLKj4ARAYCI5h6fvgA/reviews/ChdDSUhNMG9nS0VJQ0FnSUNaaTRUaG9nRRAB",
+            "relativePublishTimeDescription": "8 months ago",
+            "rating": 4,
+            "text": {
+                "text": "Cute spot for casual coffee ☕️\nAlthough neither I neither my daughter liked the lattes we ordered. I really couldn’t drink mine (it was Santiago recipe they have at the top of the menu), so I went to order a regular drip coffee, instead of charging me for a new cup, the manager just made it for me at no cost (well replacing the one I didn’t like). I really appreciate such a good service. They were also pretty quick at preparing food (not only for us, but for all customers; we sat at a table near the counter, so we witnessed their service up close).\nThe food was okay, nothing special. The portions are small, but the prices are low, so it works well if you want to grab a quick bite. I do like the fact that you don’t have to order an actual meal. Although it would be nice if they offered a couple of options for those who would like something more substantial like an eggs Benny or lox bagel. The atmosphere was great. It’s a bustling coffee shop with a polite crowd. There is plenty of seating inside and outside. So I’d recommend to check this place out.",
+                "languageCode": "en"
+            },
+            "originalText": {
+                "text": "Cute spot for casual coffee ☕️\nAlthough neither I neither my daughter liked the lattes we ordered. I really couldn’t drink mine (it was Santiago recipe they have at the top of the menu), so I went to order a regular drip coffee, instead of charging me for a new cup, the manager just made it for me at no cost (well replacing the one I didn’t like). I really appreciate such a good service. They were also pretty quick at preparing food (not only for us, but for all customers; we sat at a table near the counter, so we witnessed their service up close).\nThe food was okay, nothing special. The portions are small, but the prices are low, so it works well if you want to grab a quick bite. I do like the fact that you don’t have to order an actual meal. Although it would be nice if they offered a couple of options for those who would like something more substantial like an eggs Benny or lox bagel. The atmosphere was great. It’s a bustling coffee shop with a polite crowd. There is plenty of seating inside and outside. So I’d recommend to check this place out.",
+                "languageCode": "en"
+            },
+            "authorAttribution": {
+                "displayName": "K C",
+                "uri": "https://www.google.com/maps/contrib/106826358050076410853/reviews",
+                "photoUri": "https://lh3.googleusercontent.com/a-/ALV-UjWNQSG06Tx-lIeKBXBz1CWSbhgkHC_EnxVg9f_oqxTMF8bu_0TQ4A=s128-c0x00000000-cc-rp-mo-ba5"
+            },
+            "publishTime": "2023-09-18T00:52:57Z"
+        },
+        {
+            "name": "places/ChIJaUsphJLKj4ARAYCI5h6fvgA/reviews/ChdDSUhNMG9nS0VJQ0FnSURqamFENXdBRRAB",
+            "relativePublishTimeDescription": "a month ago",
+            "rating": 5,
+            "text": {
+                "text": "Tried their Tokyo and Manila coffees both the coffees tasted really good. Only disappointed thing is difficult to find the parking space during peak hours. If you wanna try some different latte taste try Manila Latte which became one of my favorite in recent times.",
+                "languageCode": "en"
+            },
+            "originalText": {
+                "text": "Tried their Tokyo and Manila coffees both the coffees tasted really good. Only disappointed thing is difficult to find the parking space during peak hours. If you wanna try some different latte taste try Manila Latte which became one of my favorite in recent times.",
+                "languageCode": "en"
+            },
+            "authorAttribution": {
+                "displayName": "Sneha Kakarla",
+                "uri": "https://www.google.com/maps/contrib/104003421092573223916/reviews",
+                "photoUri": "https://lh3.googleusercontent.com/a-/ALV-UjXJfgD-hJ5XwbKTsEEoGKyXPAsQifmmEOa_KII62uMPZW34nWVM=s128-c0x00000000-cc-rp-mo-ba2"
+            },
+            "publishTime": "2024-05-06T02:14:08Z"
+        }
+    ],
+    "photos": [
+        {
+            "name": "places/ChIJaUsphJLKj4ARAYCI5h6fvgA/photos/AUc7tXU_TxvzBxmLEfoFSRD3AsG52-EK9PsjXNqbDuInbLx_bSmT1WqYd__YFahizNrEim9BAN3rVFHQUG9gT9g-KE-9LcQHJAz_MErXb3lq4Z-1YZtS7fR97N8ntefsoDIiEVgN_AMy81zJxLnZqZmPO-BVfedkEPy0OdKO",
+            "widthPx": 6000,
+            "heightPx": 4000,
+            "authorAttributions": [
+                {
+                    "displayName": "Voyager Craft Coffee",
+                    "uri": "//maps.google.com/maps/contrib/112314444619388632268",
+                    "photoUri": "//lh3.googleusercontent.com/a-/ALV-UjXFVrFD1Bkxo5EUu7c_chj37lEqJDTjSthvRVETvzrZh7whwXou=s100-p-k-no-mo"
+                }
+            ]
+        },
+        {
+            "name": "places/ChIJaUsphJLKj4ARAYCI5h6fvgA/photos/AUc7tXU2BjNV_mOe_T2HE_f3-4uaa6tVz6L6dyJpx3C_bObXi37Z7J21iaQR_yzLGhvkoRSj7W8vEU4wTKMnnV9qm651I1W6W1nhVNxsRutirE1Yt74YWZy092-oqaj7jO7HYoZvIPjdRONGJt3sZSJLZ_lyCR2h4JQrNj5g",
+            "widthPx": 3024,
+            "heightPx": 4032,
+            "authorAttributions": [
+                {
+                    "displayName": "Foodie Traveler",
+                    "uri": "//maps.google.com/maps/contrib/102932902970517242005",
+                    "photoUri": "//lh3.googleusercontent.com/a-/ALV-UjX_EnSgIrQhgBkeuZgrKVfWLInLVZCAISjuEHNei4jRf7t78N4=s100-p-k-no-mo"
+                }
+            ]
+        },
+        {
+            "name": "places/ChIJaUsphJLKj4ARAYCI5h6fvgA/photos/AUc7tXVrQ4xrvMu8sXbXQcbrtfmjQiMBrtc2ycpnWxJ6p-aeNvLbaIg4726LbjyanwEohZM_COIlFUZZVZKaxOT6QcB9L46YFzxHEAejSgDw4j0Vkjfnyk9uED5hwRrHE981w93QACBYdHEIJjplDPEzFF5liemBJhMdcgX3",
+            "widthPx": 3120,
+            "heightPx": 4160,
+            "authorAttributions": [
+                {
+                    "displayName": "Voyager Craft Coffee",
+                    "uri": "//maps.google.com/maps/contrib/112314444619388632268",
+                    "photoUri": "//lh3.googleusercontent.com/a-/ALV-UjXFVrFD1Bkxo5EUu7c_chj37lEqJDTjSthvRVETvzrZh7whwXou=s100-p-k-no-mo"
+                }
+            ]
+        },
+        {
+            "name": "places/ChIJaUsphJLKj4ARAYCI5h6fvgA/photos/AUc7tXV8wmOWSNTfV_zazqbeFs_h0xoBkpd3fHeY7eAaMMrBtKExczKH5fqtz2x_40bT1PRi__nXcs-hplcn1MDlpfdfs47Vkqj9QKcfxHob-nSId9vp-ODxBa-9A13MBH5uT4FvEPd_jf9GJo_DRAaP7kHNupnvBMfdRBKd",
+            "widthPx": 1539,
+            "heightPx": 1539,
+            "authorAttributions": [
+                {
+                    "displayName": "pete helme",
+                    "uri": "//maps.google.com/maps/contrib/111301298131981715211",
+                    "photoUri": "//lh3.googleusercontent.com/a-/ALV-UjW-zBW_27CJopx500H0_Rt9ouQsaC4fnE1f_E63HkaEjr40yk00=s100-p-k-no-mo"
+                }
+            ]
+        },
+        {
+            "name": "places/ChIJaUsphJLKj4ARAYCI5h6fvgA/photos/AUc7tXWnVTPGA6exXrClbz3ynKtnatW1DAbejLRvpgGjs36xzCBqFz-gwJtp6Qng-eMh2gRgZjiBNJGEOlfPqch36nGOdLVKs86ejCTrV0lkoj7XH55YwYSl7Gf9r8CPCAM7TiE1CnHII1nqj5Bl9rhu6tx_8ju_HQOkRvNG",
+            "widthPx": 2791,
+            "heightPx": 3642,
+            "authorAttributions": [
+                {
+                    "displayName": "Foodie Traveler",
+                    "uri": "//maps.google.com/maps/contrib/102932902970517242005",
+                    "photoUri": "//lh3.googleusercontent.com/a-/ALV-UjX_EnSgIrQhgBkeuZgrKVfWLInLVZCAISjuEHNei4jRf7t78N4=s100-p-k-no-mo"
+                }
+            ]
+        },
+        {
+            "name": "places/ChIJaUsphJLKj4ARAYCI5h6fvgA/photos/AUc7tXVxujqlkfIzJQKl7NEfGE0ck1AytKdzjj5781R16vhGKZna1LquXAWQ2uRfzycSnZRSItSsB_tKNFiZkA_OC4APh_7vscsGs75CBvs0RIuPwId4rCiAaLqoHJJftzOkZ2apUnYW0byVHtJ6Km6cHey6dLpK5tH5G4Qr",
+            "widthPx": 5712,
+            "heightPx": 4284,
+            "authorAttributions": [
+                {
+                    "displayName": "Sam K",
+                    "uri": "//maps.google.com/maps/contrib/100680635125732126785",
+                    "photoUri": "//lh3.googleusercontent.com/a-/ALV-UjV7QmVm43vy7977JIY8MDhGUWonpaUxDgTAttadDjWlfOBKQxCLyQ=s100-p-k-no-mo"
+                }
+            ]
+        },
+        {
+            "name": "places/ChIJaUsphJLKj4ARAYCI5h6fvgA/photos/AUc7tXUUq5BKskm1HXeaGuJuPfbf-j1fdd-c9oZmuXfnG1v-GIXTbIh1RFmhv74L6OKCvXaOU-P4xbsvF8M-jcOg3e8kDNCjIZKyUAP3GE2OMbAQWOqXUXL8Vuk7TJvW3bRYqA8eg9zI5JGeNr-JEoMHJh4EJdnhftTx9PlA",
+            "widthPx": 1415,
+            "heightPx": 1637,
+            "authorAttributions": [
+                {
+                    "displayName": "Rakesh S",
+                    "uri": "//maps.google.com/maps/contrib/106051119794382769742",
+                    "photoUri": "//lh3.googleusercontent.com/a-/ALV-UjVjGhhXyPw-hiYH4fPwYeiDQ8uI8-OOTdxMFnXiEcsbTGNP4XFT=s100-p-k-no-mo"
+                }
+            ]
+        },
+        {
+            "name": "places/ChIJaUsphJLKj4ARAYCI5h6fvgA/photos/AUc7tXV7NjM-SQoUC36wzdziuDHomjVnGD8JAYUAxUlsNFKvQNQicQKIVAnc9PqnP_Q9nhhoy1QmbW5oWb7ECnYxMyril67nRumBiwz_2y8PL9poMDY5qFpqzkmNSOgbh8dtWtB2xEPHG83xF8UtWMpFOZfuIACMiW-RvsJp",
+            "widthPx": 4030,
+            "heightPx": 2331,
+            "authorAttributions": [
+                {
+                    "displayName": "K C",
+                    "uri": "//maps.google.com/maps/contrib/106826358050076410853",
+                    "photoUri": "//lh3.googleusercontent.com/a-/ALV-UjWNQSG06Tx-lIeKBXBz1CWSbhgkHC_EnxVg9f_oqxTMF8bu_0TQ4A=s100-p-k-no-mo"
+                }
+            ]
+        },
+        {
+            "name": "places/ChIJaUsphJLKj4ARAYCI5h6fvgA/photos/AUc7tXUxIFSUaEty4DUXYSi_Rn612N7l4C6ruqX-WH761ZNCD2UdqUDpJUsPjUyxIbtlh87aJoU_1hlX6EOK1pIQRNWHrLfrqLiLy7Acb47chEZWgTbqlMFgn6ZLSoEVnhICMEOTkv6YZVilquFTcND6HXD0Y33KGCJ2eZg6",
+            "widthPx": 3024,
+            "heightPx": 4032,
+            "authorAttributions": [
+                {
+                    "displayName": "Nicole Spoljar",
+                    "uri": "//maps.google.com/maps/contrib/107000953074594519001",
+                    "photoUri": "//lh3.googleusercontent.com/a-/ALV-UjXVHGm22OVhb0rmydz_zMBjILqLAgW6fhfu5aF7HectMJlS5daYKA=s100-p-k-no-mo"
+                }
+            ]
+        },
+        {
+            "name": "places/ChIJaUsphJLKj4ARAYCI5h6fvgA/photos/AUc7tXXslfsjHPky_Okns9Jf1Ld830GsEr2hRcnIxvYlAd0Q0ywNGkdoupmPs9vbFceXTCXK9w6RQ4vEYk4kwenOAmfRVZHhHCt_0p_dryqLXcYh70cL7SjjKnVm5-GtnvDDXjxQJXhnK533etFulHYgOKXFG4fuQ9TvNfUJ",
+            "widthPx": 348,
+            "heightPx": 348,
+            "authorAttributions": [
+                {
+                    "displayName": "Eddie Cisneros",
+                    "uri": "//maps.google.com/maps/contrib/116588208633580133881",
+                    "photoUri": "//lh3.googleusercontent.com/a/ACg8ocLRxlOZ4NYTlkDN7oaNALsWlvbajDUQ7Yy8PBn198KIP1SUNQ=s100-p-k-no-mo"
+                }
+            ]
+        }
+    ],
+    "outdoorSeating": "True",
+    "servesCoffee": "True",
+    "restroom": "True"
+}
